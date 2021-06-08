@@ -69,7 +69,7 @@ var name1=()=>{
 
 //创建压缩html的任务
 var html1=()=>{
-    return gulp.src('./src/pages/*')
+    return gulp.src('./src/html/*')
     .pipe(htmlmin({
         removeAttributeQuotes:true,//移除属性上的双引号
         removeComments:true,//移除注释
@@ -78,7 +78,7 @@ var html1=()=>{
         minifyJS:true,//把页面里面script标签里面的js代码也去空格
         collapseBooleanAttributes:true//把值为布尔值的属性简写
     }))
-    .pipe(gulp.dest('./dist/pages'))
+    .pipe(gulp.dest('./dist/html'))
 }
 //删除任务
 var del1=()=>{
