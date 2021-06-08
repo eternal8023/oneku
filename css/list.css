@@ -1,0 +1,252 @@
+/* 头部 */
+body{
+    min-width: 1200px;
+}
+header{
+    background: #fff;
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    line-height: 70px;
+}
+.head-l{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+.head-pot{
+    position: relative;
+}
+.head-pot a{
+    width: 85px;
+    height: 52.5px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.head-pot img{
+    width: 85px;
+}
+.head-ul{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 57.5px;
+}
+.head-ul li{
+    float: left;
+    padding: 0 30px;
+    cursor: pointer;
+}
+.head-r{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-inp{
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 38px;
+    border: 1px solid #ddd;
+}
+.head-inp input{
+    line-height: 70px;
+    width: 168px;
+    height: 36px;
+    border: none;
+}
+.hade-fd{
+    cursor: pointer;
+    font-size: 20px;
+}
+/* 中心 */
+.con-lb{
+    width: 100%;
+}
+.con-lb img{
+    width: 100%;
+}
+.shouye{
+    height: 60px;
+    background-color: #fff;
+}
+.sy-c{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 60px;
+}
+.chanp{
+    height: 64px;
+    background-color: #fafafa;
+}
+.chanpc{
+    width: 1200px;
+    margin: 0 auto;
+    height: 64px;
+    padding: 15px 0 5px;
+}
+.chanpc span:first-child{
+    padding: 0 15px 0;
+    font-size: 20px;
+    border-left: 4px solid #005aaa;
+}
+.chanpc span:last-child{
+    font-size: 12px;
+    color: #444;
+}
+.kuans{
+    background-color: #fff;
+}
+.kuansc{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.shousuo{
+    height: 39px;
+    border-bottom: 1px solid #fafafa;
+    line-height: 39px;
+    font-size: 12px;
+}
+.shousuo p{
+    width: 150px;
+    float: left;
+}
+.shousuo ul{
+    float: left;
+}
+.shousuo li{
+    width: 110px;
+    float: left;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.fenye{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.fenyec a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.fenyec{
+    width: 19%;
+    height: 350px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.fenyec img{
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+.fenyec :nth-child(2){
+    font-size: 14px;
+    margin: 20px 0 5px;
+}
+.fenyec :nth-child(3){
+    font-size: 12px;
+    margin: 5px 0 15px;
+    color: #444;
+}
+.fenyec :nth-child(4){
+    font-size: 12px;
+    margin: 5px 0 15px;
+    color: #444;
+}
+.fenyec b{
+    color: #005aaa;
+}
+.fenyec:hover{
+    -webkit-box-shadow: #ccc 0px 0px 10px;
+    -moz-box-shadow: #ccc 0px 0px 10px;
+    box-shadow: #ccc 0px 0px 10px;  
+}
+.fenyec:hover :nth-child(2){
+    color: #005aaa;
+}
+.pagination{
+    width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+}
+.pagination div,.pagination button{
+    cursor: pointer;
+    text-align: center;
+}
+/* 底部 */
+.footer{
+    height: 303px;
+    background-color: #F6F7F9;
+}
+.foot-c{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 15px 0;
+}
+.foot-t{
+    width: 100%;
+    height: 212px;
+}
+.foot-main{
+    width: 16%;
+}
+.foot-t>div:nth-child(2){
+    width: 20%;
+}
+.foot-main>p:nth-child(1){
+    padding: 15px 0 ;
+    font-size: 14px;
+    font-weight: bold;
+}
+.foot-main a{
+    font-size: 12px;
+    line-height: 27px;
+    color: #444;
+    margin: 5px 0;
+}
+.foot-main a:hover{
+    text-decoration: underline;
+}
+.footl{
+    width: 30%;
+}
+.footr{
+    width: 70%;
+}
+.foott{
+    margin-top: 23px;
+    border-top: 1px solid #666;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.foott a,.foott span{
+    font-size: 12px;
+    color: #444;
+    line-height: 27px;
+}
+.foott span{
+    padding: 0 10px;
+}
+.foottc{
+    flex-grow: 1;
+    text-align: center;
+}
