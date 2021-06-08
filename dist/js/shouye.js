@@ -1,0 +1,1 @@
+var wode=document.querySelector(".head-r"),name1=getCookie("name");wode.onclick=function(e){"."==((e=e||window.event).target||e.srcElement).innerHTML&&(name1?location.href="../html/gouwuche.html":(alert("尚未登录，请登录"),location.href="./denglu.html?newUrl=../html/gouwuche.html"))};

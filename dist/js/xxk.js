@@ -1,0 +1,1 @@
+for(var lis2=document.querySelectorAll(".cona-ul li"),div2=document.querySelectorAll(".cona-mian>div"),i=0;i<lis2.length;i++)lis2[i].setAttribute("index",i),lis2[i].onclick=function(){for(var i=this.getAttribute("index"),l=0;l<div2.length;l++)lis2[l].className="",div2[l].className="";lis2[i].className="bb",div2[i].className="xs"};
